@@ -6,8 +6,8 @@
 
 # write in file
 # colors = ['red', 'green', 'blue'] # файловая переменная
-# data = open('file.txt', 'a') # если файла нет, то он создастся. 'а' дописывает данные
-# # data = open('file.txt', 'w') # 'w' перезаписывает данные
+# data = open('file2.txt', 'a') # если файла нет, то он создастся. 'а' дописывает данные
+# # data = open('file2.txt', 'w') # 'w' перезаписывает данные
 # data.writelines(colors)
 # data.writelines('\nline')
 # data.write('\nline1')
@@ -19,12 +19,12 @@
 #     data.write('line2')
 # data.close()
 
-# #read from file
-# path = 'file1.txt'
-# data = open(path, 'r')
-# for line in data:
-#     print(line)
-# data.close()
+#read from file
+path = 'file1.txt'
+data = open(path, 'r')
+for line in data:
+    print(line)
+data.close()
 
 
 #FUNCTION
