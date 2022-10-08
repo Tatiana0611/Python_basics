@@ -55,7 +55,7 @@ k = 2
 coeff_list = [randint(0, 100) for i in range(k + 1)]
 print(coeff_list)
 
-df = open('polynom','w')
+df = open('polynom.txt','w')
 for i in range(k):
     if coeff_list[i] == 0:
         i -= 1
@@ -107,6 +107,6 @@ for i in range(13, 20):
 result_polynom.append(str(int(polynom1[20]) + int(polynom2[20])))
 for i in range(21, 25):
     result_polynom.append(polynom1[i])
-#print(result_polynom)
+#print(result_polynom)Lwq
 
 print(''.join(result_polynom))
